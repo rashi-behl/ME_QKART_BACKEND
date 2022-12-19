@@ -1,0 +1,25 @@
+###
+
+POST http://13.127.108.162:8082/v1/auth/register
+Content-Type: application/json
+
+{
+    "name": "Ankit",
+    "email": "ankit@gmail.com",
+    "password": "ankit1234"
+}
+
+###
+
+POST http://13.127.108.162:8082/v1/auth/login
+Content-Type: application/json
+
+{
+    "email": "ankit@gmail.com",
+    "password": "ankit1234"
+}
+
+###
+
+GET http://13.127.108.162:8082/v1/users/63958ea32cc99130e5907b58
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2Mzk1OGVhMzJjYzk5MTMwZTU5MDdiNTgiLCJpYXQiOjE2NzA3NDcyMDUsImV4cCI6MTY3MDc2MTYwNSwidHlwZSI6ImFjY2VzcyJ9.m8EKRoVo5X8-33deYYtLm_2XVis54uuCluJtVEf8nok
